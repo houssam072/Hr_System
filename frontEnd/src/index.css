@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display&family=Roboto:wght@100;300;400&display=swap");
+
+/* common style */
+body {
+  background-color: var(--primary);
+  color: #000;
+  margin: 0;
+}
+
+html {
+  font-family: "roboto", sans-serif;
+}
+:root {
+  --primary: #FFF;
+  --secondary: #86b7fe;
+  --error : #ff0000;
+  --box_shadow :rgb(0 0 0 / 10%)
+  
+}
+.light {
+  --primary: #fff;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: initial;
+}
+
+.container{
+  width: 80%;
+  margin: 0 10%;
+}
+.flex{
+    flex-direction: row;
+    flex-wrap: nowrap;
+    /* align-content: center; */
+    justify-content: center;
+    align-items: center;
+}
+
+.title{
+  text-align: center;
+  margin: 20px 0;
+  color: var(--secondary);
+}
+.main_page{
+  width: 720px;
+  margin:auto;
+
+}
+
+.side_page{
+  display: flex;
+}
+.detailes{
+  padding:0 20%;
+}
+
+.detailes .info{
+  text-align: start;
+  margin: 62px 0;
+}
+
+
+button{
+  outline: none;
+  border: none;
+  background-color: var(--secondary);
+  padding: 10px 20px;
+  color: var(--primary);
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.6s;
+  border: 2px solid var(--primary);
+  font-weight: bold;
+}
+
+button:hover{
+  background-color: var(--primary);
+  color: var(--secondary);
+  border: 2px solid var(--secondary);
+}
+/* end common style */

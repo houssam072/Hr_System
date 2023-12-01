@@ -1,0 +1,16 @@
+frontend@0.0.0 /home/hp/cv/equevu/Task/frontEnd
+├── @types/react-dom@18.2.17
+├── @types/react@18.2.38
+├── @vitejs/plugin-react@4.2.0
+├── axios@1.6.2
+├── eslint-plugin-react-hooks@4.6.0
+├── eslint-plugin-react-refresh@0.4.4
+├── eslint-plugin-react@7.33.2
+├── eslint@8.54.0
+├── react-dom@18.2.0
+├── react-hook-form@7.48.2
+├── react-router-dom@6.19.0
+├── react@18.2.0
+├── universal-cookie@6.1.1
+└── vite@5.0.2
+

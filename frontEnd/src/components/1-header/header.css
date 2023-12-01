@@ -1,0 +1,50 @@
+.header nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: 2px solid rgb(0 0 0 / 10%);
+
+}
+
+.header nav .home{
+
+    outline: none;
+    border: none;
+    background-color: var(--primary);
+    padding: 10px 20px;
+    color: var(--secondary);
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.6s;
+    border: 1px solid var(--secondary);
+    font-weight: bold;
+
+}
+
+.header nav .auth{
+    width: 20%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header nav .auth a{
+
+    outline: none;
+    border: none;
+    background-color: var(--secondary);
+    padding: 10px 20px;
+    color: var(--primary);
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.6s;
+    border: 2px solid var(--primary);
+    font-weight: bold;
+}
+
+
+.header nav .auth a:hover{
+    background-color: var(--primary);
+    color: var(--secondary);
+    border: 2px solid var(--secondary);
+}

@@ -1,0 +1,37 @@
+.admin_page{
+    display: flex;
+    height: 80vh;
+    width: 100vw;
+    position: absolute;
+}
+.admin_content{
+    width: 100%;
+    display: flex;
+    position: relative;
+}
+
+.side_bar{
+    position: relative;
+    border-right: 2px solid var(--box_shadow);
+    width: 40%;
+    margin: 20px 0;
+}
+
+
+.side_bar ul{
+    text-align: center;
+    margin: 20px 0;
+}
+
+.side_bar ul li{
+    margin: 20px;
+    border: 1px solid var(--box_shadow);
+    border-radius: 10px;
+
+    padding: 20px;
+}
+.side_bar ul li:hover{
+    border: 1px solid var(--secondary);
+    border-radius: 10px;
+    transition: 0.3s;
+}

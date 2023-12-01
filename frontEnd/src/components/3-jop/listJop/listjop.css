@@ -1,0 +1,22 @@
+.job_list{
+    width: 700px;
+}
+.job_list li:nth-child(odd){
+    background-color: var(--primary);
+}
+.job_list li:nth-child(even){
+    background-color: var(--box_shadow);
+}
+.job_list li{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 10px;
+}
+
+.job_list li p,h4{
+    width: 25%;
+    text-align: center;
+    /* padding: 0 5px; */
+
+
+}
