@@ -43,13 +43,12 @@ B- first lets create backend virtual environment:
     
     -now must to create super user to manage the website using this command line:
     
-        python3 manage.py 
-        createsuperuser
+        python3 manage.py createsuperuser
         
     -runserver:
     
-        python3 manage.py 
-        runserver
+        python3 manage.py runserver
+        
         if display an error beacause you are using default port 8000
         just run:
         
@@ -71,7 +70,7 @@ D- test directory:
 
 ​	-virtualenv venv
 
-​	-
+​	
 
 ​	-source venv/bin/activate(for linux)
 
